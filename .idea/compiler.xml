@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guli-service-util" />
+        <module name="guli-parent" />
+        <module name="guli-api" />
+        <module name="guli-common-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guli-api" target="1.8" />
+      <module name="guli-common-api" target="1.8" />
+      <module name="guli-parent" target="1.8" />
+      <module name="guli-service-util" target="1.8" />
+      <module name="gulimallparent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guli-parent" options="" />
+    </option>
+  </component>
+</project>
